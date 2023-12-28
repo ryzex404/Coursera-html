@@ -40,15 +40,14 @@
 			display: inline;
 			width: 250px;
 			border-radius: 50%;
+			box-shadow: 0 0 3px rgba(0,0,0,.1);
 		}
 		.contenido p {
 			width: 1100px;
 			display: inline;
 		}
 		div p {
-			padding-bottom: 25px;
 			font-size: 60px;
-
 		}
 		nav {
 			float: right;
@@ -78,8 +77,8 @@ c
 			background-color: #757575;
 		}
 		.contenido {
-			padding-top: 0px;
-			padding: 80px;
+			padding-top: 30px;
+			padding-left: 80px;
 		}
 		.contenidoin {
 			padding-top: 0px;
@@ -98,8 +97,45 @@ c
 		body {
 			font-family: 'Roboto', sans-serif;
 		}
-		#acercademiimg {
-			background-color: #A5A4A5;
+		#acercademibg {
+			background-color: #E1E1E1;
+		}
+		#Acercademi {
+			padding-bottom: 20px;
+			padding-top: 20px;
+			font-size: 35px;
+			font-weight: 900;
+		}
+		#portafolio {
+			padding-bottom: 20px;
+			padding-top: 40px;
+			font-size: 35px;
+			font-weight: 900;
+			text-align: right;
+			padding-right: 80px;
+		}
+		#descripcion {
+			font-size: 30px;
+			width: 1320px;
+			padding-bottom: 80px;
+		}
+		#portafolio-descripcion {
+			font-size: 30px;
+			padding-bottom: 80px;
+			text-align: right;
+			padding-right: 80px;
+			padding-left: 550px;
+		}
+		#img2 {
+			width: 540px;
+			height: 327px;
+		}
+		#contacto {
+			background-image: url(https://media.tenor.com/zEzrCBd_6i8AAAAd/hacker%C4%B1m-hacker.gif)
+		}
+		#descripcion-contacto {
+			font-size: 20px;
+			padding-top: 80px;
 		}
 	</style>
 		
@@ -112,7 +148,7 @@ c
 	</h2>
 	<nav>
 		<ul>
-			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#subtitle">Inicio</a></li>
 			<li><a href="#Acercademi">Acerca de Mi</a></li>
 			<li><a href="">Contacto</a></li>
 		</ul>
@@ -125,58 +161,31 @@ c
 			Soy un apasiondo estudiante del segundo semestre de Ingenieria en Computacion en la Universidad de Guadalajara, en Tepatitlan, Jal.
 		</p>
 	</div>
-	<div id="acercademiimg">
+	<div id="acercademibg">
 		<div class="contenido">
 		<h2 id="Acercademi" >Acerca de Mi</h2>
-			Esta es una página de prueba diseñada para aprender sobre la anatomía de una regla de CSS. Básicamente, una regla de CSS consta de un selector que elige una etiqueta específica dentro de tu página web. Luego, encontramos las llaves que contienen la declaración del elemento previamente seleccionado. La declaración, a su vez, se compone de dos partes: la propiedad y el valor.
-			Ejemplo: p { color: blue;} 
-			En este ejemplo, "p" es el selector que elige todos los párrafos dentro de nuestra página web y nos permite modificar su estilo. Dentro de las llaves, la propiedad es "color" y el valor es "azul". Cabe destacar que para cada propiedad existen valores predefinidos.
-
-			Para dar estilo a esta página de prueba, he optado por incluir los estilos directamente en el archivo HTML, en lugar de crear un archivo .css como se debería hacer. Utilicé la etiqueta style dentro de la etiqueta head para indicar algunos estilos específicos para el contenido de la página.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div id="descripcion">
+				Me llamo Gerardo Esqueda Padilla, tengo 18 años y actualmente estoy cursando la carrera de Ingeniería en Computación. Mi objetivo es especializarme como desarrollador Full Stack. Además de mi fascinación por la tecnología, encuentro inspiración en la música, el cine y los videojuegos. Soy alguien apasionado por organizar y planificar, destacándome en la gestión de tareas. Me encanta hablar sobre las últimas tendencias tecnológicas y estoy abierto a colaboraciones que me permitan seguir aprendiendo y creciendo en este emocionante campo. ¡Conéctate conmigo para explorar ideas y proyectos tecnológicos!
+			</div>
 		</div>
 	</div>
-	<img src="">
 	<div>
-	<h2>Subtitulo 2</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris. Ac odio tempor orci dapibus ultrices in. Amet purus gravida quis blandit turpis. Sed ullamcorper morbi tincidunt ornare. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Diam ut venenatis tellus in metus vulputate eu. Eu consequat ac felis onec et odio pellentesque diam volutpat. Nibh venenatis cras sed felis. In iaculis nunc sed augue lacus viverra vitae congue. Nisi scelerisque eu ultrices vitae auctor eu. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Accumsan sit amet nulla facilisi morbi tempus iaculis. Sed risus pretium quam vulputate dignissim suspendisse.
+	<img id="img2"src="https://lh4.googleusercontent.com/rTUQliZRh5MR_4jpErqJtmHcol2TZkVHnEbMJwiZKBsR12K4wcn3x-hBpbxRFFXxJ_t1YtjqjXs-A5xBU__lHTrgzth_-Kh-G0edOtfKojL5sWHvkdbVn1yqWoD28eolRCDugZ24m9wWmVuObCyU9qnnUPxb49psl2FgiL9_GMXF-DqNdiq65WHDGe1M6g" align="left">
+	<h2 id="portafolio">Portafolio</h2>
+		<div id="portafolio-descripcion">
+			Actualmente, estoy inmerso en mi formación en Ingeniería en Computación, con enfoque en convertirme en un desarrollador Full Stack. Aunque no tengo proyectos completados por el momento, estoy dedicado a mi aprendizaje y trabajando en varios lenguajes.
+		</div>
 	</div>
-
+	<div id="contacto">
+	<p id="descripcion-contacto">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	</div>
 	<footer>
 		<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
